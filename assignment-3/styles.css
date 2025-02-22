@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    background-color: #a7a8cd; 
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: solid gray 10px;
+}
+
+.card-label {
+    background-color: #fdf1b5;
+    position: absolute;
+    top: 45px;
+    left: 140px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1; /* Ensures it's on top of the image */
+    border-radius: 5px 20px 20px 5px;
+} 
+
+.card {
+    position: relative;
+    width: 25rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.card-img {
+    position: relative;
+    height: 60%;
+}
+
+.card-header span {
+    color: #555555;
+    font-size: medium;
+}
+
+.card-text {
+    line-height: 1.3rem;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
