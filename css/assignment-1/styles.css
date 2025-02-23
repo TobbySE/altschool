@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 120px);
+    min-height: calc(100vh - 20px);
+    border-bottom: 20px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #202020;
+}
+
+.content {
+    background-color: white;
+    width: 40%;
+    max-height: 300px;
+    height: 100%;
+    position: relative;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+}
+
+.header {
+    background: #ff00a5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    width: calc(100% - 72px);
+    height: 100%;
+    max-height: 100px;
+    position: absolute;
+    top: -32px;
+    z-index: 1;
+}
+
+.header-text {
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.header h1 {
+    font-weight: 900;
+}
+
+.content p {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        max-height: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        justify-content: center;
+    }
+
+    .content {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    
+
+    .content {
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 744px) {
+    .content p {
+       
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .content p {
+       
+        font-size: 16px;
+    }
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    } 
+}
