@@ -6,8 +6,6 @@
   font-family: 'Lato', Arial, sans-serif;
 }
 
-/* CSS  */
-
 .container {
   width: 100%;
   min-height: 100vh;
@@ -35,7 +33,6 @@
   width: 100%;
   padding-left: 24px;
   padding-right: 24px;
-
 }
 
 .top-container-text-card-title {
@@ -56,7 +53,6 @@
   color: black;
   margin-bottom: 16px;
   max-width: 415px;
-
 }
 
 .top-container-text-card-subtitle>span {
@@ -102,7 +98,6 @@
   line-height: 28.8px;
   letter-spacing: 0%;
   color: #000000;
-
 }
 
 .bottom-container-card-top-message {
@@ -113,7 +108,6 @@
   color: black;
   margin-bottom: 16px;
   margin-top: 92px;
-
 }
 
 .bottom-container-card-bottom-message {
@@ -140,5 +134,4 @@
   .bottom-container-card-top-message {
   margin-top: 16px;
   }
-
 }

@@ -48,7 +48,6 @@ nav a {
     border-radius: 5px;
 }
 
-/* Checkout Container */
 .checkout-container {
     display: flex;
     max-width: 900px;
@@ -58,7 +57,6 @@ nav a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Section */
 .checkout-box {
     flex: 2;
     padding: 30px;
@@ -134,7 +132,6 @@ input {
     background: #006645;
 }
 
-/* Help Section */
 .help {
     margin-top: 20px;
     font-size: 14px;
@@ -150,7 +147,6 @@ input {
     color: gray;
 }
 
-/* Sidebar */
 .sidebar {
     flex: 1;
     background: #0A66C2;
@@ -186,7 +182,6 @@ input {
     text-decoration: underline;
 }
 
-/* Testimonial */
 .testimonial {
     margin-top: 20px;
     font-size: 14px;

@@ -7,14 +7,13 @@
 }
 
 .container {
-width: calc(100% - 100px);
-min-height: calc(100vh - 100px);
-display: flex;
-justify-content: center;
-align-items: center;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #a7a8cd; 
     padding: 50px;
-
 }
 
 .card{
@@ -32,8 +31,8 @@ align-items: center;
 .card-label {
     background-color: #fdf1b5;
     position: absolute;
-   left: -8px;
-   top: 16px;
+    left: -8px;
+    top: 16px;
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
